@@ -15,7 +15,7 @@ As the product landscape evolves, the need for robust automation and migration t
 * **Location:** `/GPO/`
 * **Description:** This powerful PowerShell script fully automates the migration of Group Policy Objects (GPOs) from legacy **VMware Horizon** settings to the new **Omnissa Horizon** registry paths. The tool clones a specified source policy, exports its registry settings, translates all known VMware-related paths to their Omnissa equivalents, and then creates a new, ready-to-use GPO in your domain.
 * **Use Case:** Indispensable for administrators handling the rebranding and updating of their Horizon infrastructure, saving hours of manual work and preventing configuration errors.
-* **[>> Go to the GPO Migration Script Details](./GPO/README.md)**
+* **[>> Go to the GPO Migration Script Details](https://github.com/vdesktopninja/OmnissaTools/blob/main/GPO/Readme.md)**
 
 ### 2. (More Tools Coming Soon)
 
