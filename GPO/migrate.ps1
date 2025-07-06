@@ -88,7 +88,6 @@ $pathMappings = @{
     "SOFTWARE\Policies\VMware, Inc.\VMware VDM\UNCRedirection"      = 'SOFTWARE\Policies\Omnissa\Horizon\UNCRedirection';
     "Software\Policies\VMware, Inc.\VMware AppTap"                  = 'Software\Policies\Omnissa\Horizon\AppTap';
     "Software\Policies\VMware, Inc.\VMware BrowserRedir"            = 'Software\Policies\Omnissa\Horizon\BrowserRedir';
-    "Software\Policies\VMware, Inc.\VMware BROWSERREDIR"            = 'Software\Policies\Omnissa\Horizon\BrowserRedir';
     "Software\Policies\VMware, Inc.\VMware GEOREDIR"                = 'Software\Policies\Omnissa\Horizon\GEOREDIR';
     "Software\Policies\VMware, Inc.\VMware HTML5MMR"                = 'Software\Policies\Omnissa\Horizon\Html5mmr';
     "Software\Policies\VMware, Inc.\VMware HTML5SERVER"             = 'Software\Policies\Omnissa\Horizon\HTML5SERVER';
