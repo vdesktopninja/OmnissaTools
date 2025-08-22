@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- Window Titles -->
+  <data name="WindowTitle" xml:space="preserve">
+    <value>LogScrub - Log Anonymization Tool</value>
+  </data>
+  
+  <!-- UI Labels -->
+  <data name="InputFolderZip" xml:space="preserve">
+    <value>Input Folder/ZIP:</value>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>Output:</value>
+  </data>
+  <data name="AnonymizeIPs" xml:space="preserve">
+    <value>Anonymize IPs</value>
+  </data>
+  <data name="IPMode" xml:space="preserve">
+    <value>IP Mode:</value>
+  </data>
+  <data name="KeepRFC1918" xml:space="preserve">
+    <value>Keep RFC1918</value>
+  </data>
+  <data name="AnonymizeFQDNs" xml:space="preserve">
+    <value>Anonymize FQDNs</value>
+  </data>
+  <data name="AnonymizeUsers" xml:space="preserve">
+    <value>Anonymize Users</value>
+  </data>
+  <data name="AnonymizeServersHosts" xml:space="preserve">
+    <value>Anonymize Servers/Hosts</value>
+  </data>
+  <data name="Parallelism" xml:space="preserve">
+    <value>Parallelism:</value>
+  </data>
+  
+  <!-- Button Labels -->
+  <data name="BrowseFolder" xml:space="preserve">
+    <value>Browse Folder...</value>
+  </data>
+  <data name="BrowseZIP" xml:space="preserve">
+    <value>Browse ZIP...</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select...</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="OpenOutput" xml:space="preserve">
+    <value>Open Output</value>
+  </data>
+  
+  <!-- Dialog Messages -->
+  <data name="SelectLogFolder" xml:space="preserve">
+    <value>Select log folder</value>
+  </data>
+  <data name="SelectOutputFolder" xml:space="preserve">
+    <value>Select output folder</value>
+  </data>
+  <data name="DropFolderOrZip" xml:space="preserve">
+    <value>Drop folder or ZIP file here</value>
+  </data>
+  
+  <!-- File Filters -->
+  <data name="ZipArchivesFilter" xml:space="preserve">
+    <value>ZIP Archives (*.zip)|*.zip</value>
+  </data>
+  
+  <!-- Status Messages -->
+  <data name="SelectedZip" xml:space="preserve">
+    <value>Selected ZIP: {0}</value>
+  </data>
+  <data name="ExtractingZipTo" xml:space="preserve">
+    <value>Extracting ZIP to: {0}</value>
+  </data>
+  <data name="NoTextFilesToProcess" xml:space="preserve">
+    <value>No text files to process.</value>
+  </data>
+  <data name="DetectedTextFiles" xml:space="preserve">
+    <value>Detected {0} text files in: {1}</value>
+  </data>
+  <data name="ProcessedSummary" xml:space="preserve">
+    <value>[OK] Processed. Files: {0}, Skipped(bin): {1}, Errors: {2}</value>
+  </data>
+  <data name="AnonymizationStats" xml:space="preserve">
+    <value>     IP:{0} FQDN:{1} Users:{2} Servers:{3}</value>
+  </data>
+  <data name="PackingResultToZip" xml:space="preserve">
+    <value>Packing result to ZIP: {0}</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>[INFO] Cancelled.</value>
+  </data>
+  
+  <!-- Error Messages -->
+  <data name="ValidationError" xml:space="preserve">
+    <value>Validation Error</value>
+  </data>
+  <data name="InputValidationFailed" xml:space="preserve">
+    <value>Input validation failed: {0}</value>
+  </data>
+  <data name="OutputValidationFailed" xml:space="preserve">
+    <value>Output validation failed: {0}</value>
+  </data>
+  <data name="SettingsValidationFailed" xml:space="preserve">
+    <value>Settings validation failed: {0}</value>
+  </data>
+  <data name="ParallelismValidationFailed" xml:space="preserve">
+    <value>Parallelism validation failed: {0}</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Access denied: {0}
+
+Please check file permissions.</value>
+  </data>
+  <data name="AccessError" xml:space="preserve">
+    <value>Access Error</value>
+  </data>
+  <data name="DirectoryNotFound" xml:space="preserve">
+    <value>Directory not found: {0}</value>
+  </data>
+  <data name="DirectoryError" xml:space="preserve">
+    <value>Directory Error</value>
+  </data>
+  <data name="IOError" xml:space="preserve">
+    <value>I/O error: {0}
+
+This might be due to insufficient disk space or locked files.</value>
+  </data>
+  <data name="IOErrorTitle" xml:space="preserve">
+    <value>I/O Error</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>An unexpected error occurred: {0}
+
+Please check the logs for more details.</value>
+  </data>
+  <data name="UnexpectedErrorTitle" xml:space="preserve">
+    <value>Unexpected Error</value>
+  </data>
+  
+  <!-- Progress Messages -->
+  <data name="ProgressFormat" xml:space="preserve">
+    <value>{0}%  •  {1}/{2}  •  speed ~ {3}/s  •  ETA {4}</value>
+  </data>
+</root>
